@@ -67,6 +67,25 @@ const Blog = () => {
             perspective entirely?
           </p>
         </div>
+
+        <div className="p-4 border-2 border-gray-200 rounded-lg my-6">
+          <div className="flex justify-between items-center mb-2">
+            <h1 className="text-lg font-semibold mr-4 md:text-base">
+              What is Web Accessibility?
+            </h1>
+            <Link href="https://accessibly-speaking.vercel.app/webAccessContent">
+              <BsBoxArrowUpRight className="text-xl" />
+            </Link>
+          </div>
+          <p className="text-sm md:text-xs mb-2"></p>
+          <p className="text-sm md:text-xs leading-loose">
+            Web accessibility is the practice of making websites usable by
+            everyone, regardless of their abilities or disabilities. It involves
+            designing and developing digital content that is inclusive and
+            accessible to people with a wide range of impairments, including
+            visual, auditory, motor, and cognitive disabilities.
+          </p>
+        </div>
       </main>
     </>
   );
