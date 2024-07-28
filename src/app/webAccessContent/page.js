@@ -167,7 +167,7 @@ const WebAccessContent = () => {
             contribute to a more inclusive online world.
           </p>
           <p className="text-lg">
-            Let's commit to making the web a place where everyone can
+            Let&apos; s commit to making the web a place where everyone can
             participate and thrive. Together, we can build a more accessible and
             inclusive digital landscape.
           </p>
