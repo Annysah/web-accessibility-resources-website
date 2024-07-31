@@ -12,7 +12,7 @@ const Blog = () => {
 
       <Header />
 
-      <main className="max-w-3xl mx-auto pt-12">
+      <main className="max-w-3xl mx-auto pt-12 px-4 sm:px-6 lg:px-8">
         <h1 className="text-5xl font-bold mb-6 text-center">Blog</h1>
         <div className="p-4 border-2 border-gray-200 rounded-lg my-6">
           <div className="flex justify-between items-center mb-2">
