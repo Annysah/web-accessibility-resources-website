@@ -5,7 +5,7 @@ export default function Channels() {
   return (
     <div className="flex items-center p-4 border rounded-lg">
       <div className="ml-4 flex-1 leading-loose">
-        <h3 className="text-lg font-semibold">Youtube Channels 📹</h3>
+        <h3 id="youtube-channels" className="text-lg font-semibold">Youtube Channels 📹</h3>
         {channels.map((channel) => (
           <div key={channel.id}>
             <Link

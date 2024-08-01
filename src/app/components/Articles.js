@@ -5,7 +5,7 @@ export default function Articles() {
   return (
     <div className="flex items-center p-4 border rounded-lg">
       <div className="ml-4 flex-1 leading-loose">
-        <h3 className="text-lg font-semibold">Articles 📃</h3>
+        <h3 id="articles" className="text-lg font-semibold">Articles 📃</h3>
         {articles.map((article) => (
           <div key={article.id}>
             <Link

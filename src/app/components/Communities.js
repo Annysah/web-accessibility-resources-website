@@ -5,7 +5,7 @@ export default function Communities() {
   return (
     <div className="flex items-center p-4 border rounded-lg">
       <div className="ml-4 flex-1 leading-loose">
-        <h3 className="text-lg font-semibold">Organizations/Communities 👥</h3>
+        <h3 id="communities" className="text-lg font-semibold">Organizations/Communities 👥</h3>
         {communities.map((community) => (
           <div key={community.id}>
             <Link

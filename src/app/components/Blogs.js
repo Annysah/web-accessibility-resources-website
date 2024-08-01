@@ -5,7 +5,7 @@ export default function Blogs() {
   return (
     <div className="flex items-center p-4 border rounded-lg">
       <div className="ml-4 flex-1 leading-loose">
-        <h3 className="text-lg font-semibold">Blogs 📌</h3>
+        <h3 id="blogs" className="text-lg font-semibold">Blogs 📌</h3>
         {blogs.map((blog) => (
           <div key={blog.id}>
             <Link href={blog.url} className="flex items-center text-gray-600">

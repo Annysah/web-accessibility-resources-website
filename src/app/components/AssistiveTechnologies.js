@@ -5,7 +5,7 @@ export default function AssistiveTechnologies() {
   return (
     <div className="flex items-center p-4 border rounded-lg">
       <div className="ml-4 flex-1 leading-loose">
-        <h3 className="text-lg font-semibold">Assistive Technologies 📱</h3>
+        <h3 id="assistive-technologies" className="text-lg font-semibold">Assistive Technologies 📱</h3>
         {assistiveTechnologies.map((assistiveTechnologie) => (
           <div key={assistiveTechnologie.id}>
             <Link

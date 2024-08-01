@@ -5,7 +5,7 @@ export default function Conferences() {
   return (
     <div className="flex items-center p-4 border rounded-lg">
       <div className="ml-4 flex-1 leading-loose">
-        <h3 className="text-lg font-semibold">Conferences/Events 🗓️</h3>
+        <h3 id="conferences" className="text-lg font-semibold">Conferences/Events 🗓️</h3>
         {conferences.map((conference) => (
           <div key={conference.id}>
             <Link

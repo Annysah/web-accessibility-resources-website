@@ -7,7 +7,7 @@ export default function Hero() {
       <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold mt-10 mb-4 leading-snug">
         Discover resources on <br /> Web Accessibility
       </h1>
-      <p className="text-base sm:text-lg md:text-xl mb-8 max-w-2xl">
+      <p className="text-base sm:text-lg md:text-xl mb-8 max-w-3xl">
         One-stop collection for the best accessibility resources. <br />
         Find guides, tools, courses and communities to help make your projects
         more accessible.
