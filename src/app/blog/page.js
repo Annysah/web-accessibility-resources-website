@@ -17,6 +17,23 @@ const Blog = () => {
         <div className="p-4 border-2 border-gray-200 rounded-lg my-6">
           <div className="flex justify-between items-center mb-2">
             <h1 className="text-lg font-semibold mr-4 md:text-base">
+              The Power of Public Awareness and Advocacy in Shaping an
+              Accessible Web
+            </h1>
+            <Link href="https://medium.com/@AnisatA/title-the-power-of-public-awareness-and-advocacy-in-shaping-an-accessible-web-3104589ab4b4">
+              <BsBoxArrowUpRight className="text-xl" />
+            </Link>
+          </div>
+          <p className="text-sm md:text-xs mb-2">July, 2024</p>
+          <p className="text-sm md:text-xs leading-loose">
+            Web accessibility a collective effort driven by public awareness and
+            advocacy.
+          </p>
+        </div>
+
+        <div className="p-4 border-2 border-gray-200 rounded-lg my-6">
+          <div className="flex justify-between items-center mb-2">
+            <h1 className="text-lg font-semibold mr-4 md:text-base">
               Web Accessibility in the Age of AI: Friend or Foe?
             </h1>
             <Link href="https://medium.com/@AnisatA/web-accessibility-in-the-age-of-ai-friend-or-foe-337b7d4de76e">
